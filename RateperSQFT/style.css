@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-size: 62.5%;
+}
+.text{
+  margin-top: 60px;
+  font-size: 15px;
+  padding-left: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+  margin-left: 180px;
+}
+.container {
+  margin: 0px;
+  height: 100vh;
+  background-color: white;
+  color: #eee;
+  margin-top: -20px;
+  margin-left: 850px;
+  background-repeat: no-repeat;
+}
+.image{
+  background-color: white;
+  background: none;
+ margin-right: 100px;
+ margin-left: 200px;
+ margin-top: -20px;
+ width: 900px;
+ height: 900px;
+}
+.calendar {
+  margin-top: -180px;
+  width: 40rem;
+  height: 55rem;
+  background: none;
+  color: black;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  font-family: "Quicksand", sans-serif;
+}
+
+.month {
+  width: 100%;
+  height: 12rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  color: darkmagenta;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  font-family: "Courgette", sans-serif;
+}
+
+.month p {
+  font-family: "Courgette", sans-serif;
+  font-size: 1.8rem;
+  color: darkmagenta;
+}
+
+.weekdays {
+  width: 100%;
+  height: 5rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+  color: rebeccapurple;
+}
+
+.weekdays div {
+  color: crimson;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  width: calc(44.2rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+}
+
+.days div {
+  font-size: 1.4rem;
+  margin: 0.3rem;
+  width: calc(40.2rem / 7);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #167e56;
+}
+.para{
+  font-weight: 200;
+font-size: 16px;
+display: flex;
+text-align: center;
+align-items: center;
+margin-left: 70px;
+margin-top: 60px;
+color: rgb(37, 69, 128);
+font-family: "Lobster Two ";
+}
+hr {
+  display: block;
+  margin-top: 0.6em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background-color: brown;
+}
+.para1{
+  font-weight: 200;
+  font-size: 16px;
+  display: flex;
+  margin-left: 23px;
+  text-align: center;
+  align-items: center;
+  color: rgb(37, 69, 128);
+font-family: "Lobster Two ";
+}
+.logo{
+  margin-left: 1150px;
+  width: 120px;
+}
+.monthtext{
+  font-size: 38px;
+  margin-left: 600px;
+  font-family: "Kaushan Script";
+  color: darkviolet;
+}
+.monthtext h3{
+  color: crimson;
+  margin-left: 28px;
+  font-family: "Cookie";
+}
